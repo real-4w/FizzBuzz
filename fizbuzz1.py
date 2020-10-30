@@ -1,3 +1,7 @@
+from timer import Timer
+t = Timer()
+t.start()
+
 def fizzbuzz(max_num):
     counter = 0
     for num in range(1, max_num+1):
@@ -10,4 +14,6 @@ def fizzbuzz(max_num):
         else:
             print(num)
         counter += 1
+
 fizzbuzz(30)
+t.stop()
