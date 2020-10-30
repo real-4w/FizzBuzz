@@ -1,6 +1,6 @@
 # timer.py
-
 #https://realpython.com/python-timer/
+
 import time
 
 class TimerError(Exception):
