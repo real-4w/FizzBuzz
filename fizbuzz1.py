@@ -10,5 +10,4 @@ def fizzbuzz(max_num):
         else:
             print(num)
         counter += 1
-
-fizzbuzz(15)
+fizzbuzz(30)

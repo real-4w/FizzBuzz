@@ -1,2 +1,3 @@
 # FizzBuzz
-FizzBuzz - trying to shorten the code :)
+FizzBuzz - trying to shorten the code and time performance.
+
