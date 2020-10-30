@@ -1,3 +1,7 @@
+from timer import Timer
+t = Timer()
+t.start()
+
 class Solution(object):
    def fizzBuzz(self, n):
       result = []
@@ -13,3 +17,5 @@ class Solution(object):
       return result
 ob1 = Solution()
 print(ob1.fizzBuzz(30))
+
+t.stop()
