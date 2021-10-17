@@ -1,5 +1,6 @@
 from timer import Timer
 t = Timer()
+t.stop()
 t.start()
 
 def fizzbuzz(max_num):
