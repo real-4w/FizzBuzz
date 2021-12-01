@@ -1,9 +1,5 @@
-from timer import Timer
-t = Timer()
-t.start()
-
 class Solution(object):
-   def fizzBuzz(self, n):
+   def fizzBuzz2(self, n):
       result = []
       for i in range(1,n+1):
          if i% 3== 0 and i%5==0:
@@ -15,7 +11,4 @@ class Solution(object):
          else:
             result.append(str(i))
       return result
-ob1 = Solution()
-print(ob1.fizzBuzz(30))
 
-t.stop()
