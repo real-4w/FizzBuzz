@@ -1,6 +1,3 @@
-from timer import Timer
-t = Timer()
-t.start()
 
 def fizzbuzz(max_num):
     counter = 0
@@ -15,5 +12,3 @@ def fizzbuzz(max_num):
             print(num)
         counter += 1
 
-fizzbuzz(30)
-t.stop()
